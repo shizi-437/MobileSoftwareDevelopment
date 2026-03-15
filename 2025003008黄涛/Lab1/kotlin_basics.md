@@ -327,15 +327,15 @@ fun huangtaoGreeting(name: String = "2025003008", age: Int): String {
 
 ```kotlin
 fun main() {
-    val steps = 8 * 100
-    val caloriesBurned = pedometerStepsToCalories(steps)
-    println("Walking $steps steps burns $caloriesBurned calories")
+    val Steps = 4000                                      // 改为 AB * 100
+    val caloriesBurned = PEDOMETERstepsTOcalories(Steps)
+    println("Walking $Steps steps burns $caloriesBurned calories")
 }
 
-fun pedometerStepsToCalories(numberOfSteps: Int): Double {
-    val caloriesBurnedForEachStep = 0.04
-    val totalCaloriesBurned = numberOfSteps * caloriesBurnedForEachStep
-    return totalCaloriesBurned
+fun PEDOMETERstepsTOcalories(NumberOFStepS: Int): Double {
+    val CaloriesBURNEDforEachStep = 0.04
+    val TotalCALORIESburned = NumberOFStepS * CaloriesBURNEDforEachStep
+    return TotalCALORIESburned
 }
 ```
 
@@ -349,15 +349,15 @@ Walking 4200 steps burns 168.0 calories
 
 ```kotlin
 fun main() {
-    val Steps =  8 * 100                                     // 改为 AB * 100
-    val caloriesBurned = PEDOMETERstepsTOcalories(Steps)
-    println("Walking $Steps steps burns $caloriesBurned calories")
+    val steps = 8 * 100
+    val caloriesBurned = pedometerStepsToCalories(steps)
+    println("Walking $steps steps burns $caloriesBurned calories")
 }
 
-fun PEDOMETERstepsTOcalories(NumberOFStepS: Int): Double {
-    val CaloriesBURNEDforEachStep = 0.04
-    val TotalCALORIESburned = NumberOFStepS * CaloriesBURNEDforEachStep
-    return TotalCALORIESburned
+fun pedometerStepsToCalories(numberOfSteps: Int): Double {
+    val caloriesBurnedForEachStep = 0.04
+    val totalCaloriesBurned = numberOfSteps * caloriesBurnedForEachStep
+    return totalCaloriesBurned
 }
 ```
 
