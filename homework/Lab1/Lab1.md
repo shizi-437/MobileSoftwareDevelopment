@@ -59,7 +59,7 @@ I'm learning Kotlin!
 **你的答案：**
 
 ```kotlin
-
+// 请将完整代码粘贴至此
 ```
 
 ---
@@ -84,7 +84,7 @@ fun main() {
 **你的答案：**
 
 ```kotlin
-
+// 请将修正后的完整代码粘贴至此
 ```
 
 ---
@@ -102,7 +102,7 @@ fun main() {
 **你的答案：**
 
 ```kotlin
-
+// 请将修正后的完整代码粘贴至此
 ```
 
 ---
@@ -126,7 +126,7 @@ Course: Kotlin
 **你的答案：**
 
 ```kotlin
-
+// 请将修正后的完整代码粘贴至此
 ```
 
 ---
@@ -144,7 +144,7 @@ fun main() (
 **你的答案：**
 
 ```kotlin
-
+// 请将修正后的完整代码粘贴至此
 ```
 
 ---
@@ -171,7 +171,7 @@ You have 42 unread messages.
 **你的答案：**
 
 ```kotlin
-
+// 请将完整代码粘贴至此
 ```
 
 ---
@@ -218,15 +218,7 @@ Total: 44
 **你的答案：**
 
 ```kotlin
-fun main() {
-    val studentName = "wunanxi"   
-	val score     = 34          
-	val bonus     = 4           
-	val total     = score + bonus
-    println("Name:$studentName")
-    println("score:$score,bonus:$bonus")
-    println("total:$total")
-}
+// 请将完整代码粘贴至此
 ```
 
 ---
@@ -248,15 +240,7 @@ fun main() {
 **你的答案：**
 
 ```kotlin
-fun main() {
-	val operandOne = 30       
-	val operandTwo = 4        
-    println("$operandOne + $operandTwo=${operandOne + operandTwo}")
-    println("$operandOne - $operandTwo=${operandOne - operandTwo}")
-    println("$operandOne * $operandTwo=${operandOne * operandTwo}")
-    println("$operandOne / $operandTwo=${operandOne / operandTwo}")
-    println("$operandOne % $operandTwo=${operandOne % operandTwo}")
-}
+// 请将完整代码粘贴至此
 ```
 
 ---
